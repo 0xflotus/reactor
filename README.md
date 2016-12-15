@@ -9,11 +9,11 @@ Starting from 3.0, Reactor is now organized into multiple projects:
 # Reactor Core
 [![Reactor Core](https://maven-badges.herokuapp.com/maven-central/io.projectreactor/reactor-core/badge.svg?style=plastic)](http://mvnrepository.com/artifact/io.projectreactor/reactor-core)
 
-Reactive foundations for apps and frameworks and reactive extensions inspired API with [Mono](http://projectreactor.io/core/docs/api/reactor/core/publisher/Mono.html) (1 element) and [Flux](http://projectreactor.io/core/docs/api/reactor/core/publisher/Flux.html) (n elements) types
+Reactive foundations for apps and frameworks and reactive extensions inspired API with [Mono](http://projectreactor.io/docs/core/release/api/reactor/core/publisher/Mono.html) (1 element) and [Flux](http://projectreactor.io/docs/core/release/api/reactor/core/publisher/Flux.html) (n elements) types
 
 - https://github.com/reactor/reactor-core
 - Documentation source : http://projectreactor.io/core/docs/reference
-- API space : http://projectreactor.io/core/docs/api
+- API space : http://projectreactor.io/docs/core/release/api
 
 # Reactor IPC
 [![Reactor IPC](https://maven-badges.herokuapp.com/maven-central/io.projectreactor/reactor-core/badge.svg?style=plastic)](http://mvnrepository.com/artifact/io.projectreactor.ipc/reactor-ipc)
@@ -22,7 +22,7 @@ Memory and InterProcessCommunication abstractions.
 
 - https://github.com/reactor/reactor-ipc:
 - Documentation source : http://projectreactor.io/ipc/docs/reference
-- API space : http://projectreactor.io/ipc/docs/api
+- API space : http://projectreactor.io/docs/ipc/release/api
 
 # Reactor Netty :
 [![Reactor IPC](https://maven-badges.herokuapp.com/maven-central/io.projectreactor/reactor-core/badge.svg?style=plastic)](http://mvnrepository.com/artifact/io.projectreactor.ipc/reactor-netty)
@@ -31,13 +31,13 @@ TCP and HTTP client and server
 
 - https://github.com/reactor/reactor-ipc:
 - Documentation source : http://projectreactor.io/netty/docs/reference
-- API space : http://projectreactor.io/netty/docs/api
+- API space : http://projectreactor.io/docs/netty/release/api
 
 # Reactor Addons
 
 - https://github.com/reactor/reactor-addons
 - Documentation source : http://projectreactor.io/ext/docs/reference
-- API space : http://projectreactor.io/ext/docs/api
+- API space : http://projectreactor.io/docs/netty/release/api
 - Sub-modules:
     - reactor-adapter
     - reactor-test
