@@ -15,6 +15,18 @@ Reactive foundations for apps and frameworks and reactive extensions inspired AP
 - Documentation source : http://projectreactor.io/core/docs/reference
 - API space : http://projectreactor.io/docs/core/release/api
 
+# Reactor Addons
+
+[![Reactor Core](https://maven-badges.herokuapp.com/maven-central/io.projectreactor.addons/reactor-test/badge.svg?style=plastic)](http://mvnrepository.com/artifact/io.projectreactor.addons/reactor-test)
+
+- https://github.com/reactor/reactor-addons
+- Documentation source : http://projectreactor.io/ext/docs/reference
+- API space : http://projectreactor.io/docs/netty/release/api
+- Sub-modules:
+    - reactor-adapter
+    - reactor-test
+    - reactor-logback
+    
 # Reactor IPC
 [![Reactor IPC](https://maven-badges.herokuapp.com/maven-central/io.projectreactor.ipc/reactor-ipc/badge.svg?style=plastic)](http://mvnrepository.com/artifact/io.projectreactor.ipc/reactor-ipc)
 
@@ -33,17 +45,6 @@ TCP and HTTP client and server
 - Documentation source : http://projectreactor.io/netty/docs/reference
 - API space : http://projectreactor.io/docs/netty/release/api
 
-# Reactor Addons
-
-[![Reactor Core](https://maven-badges.herokuapp.com/maven-central/io.projectreactor.addons/reactor-test/badge.svg?style=plastic)](http://mvnrepository.com/artifact/io.projectreactor.addons/reactor-test)
-
-- https://github.com/reactor/reactor-addons
-- Documentation source : http://projectreactor.io/ext/docs/reference
-- API space : http://projectreactor.io/docs/netty/release/api
-- Sub-modules:
-    - reactor-adapter
-    - reactor-test
-    - reactor-logback
 
 # Reactive Streams Commons
 In a continuous mission to design the most efficient concurrency operators for Reactive Streams, a common effort -codename [Reactive Streams Commons](https://github.com/reactor/reactive-streams-commons)- has begun. Reactor is fully aligned with _RSC_ design and is directly inlining _RSC_ within its stable API contract scoped under reactor-core. Reactive Streams Commons is a research effort shared with everyone and is demanding of efficient stream processing challengers, therefore it is naturally decoupled of any framework noise.
@@ -68,12 +69,12 @@ Stable Release are synchronozied with Maven Central. To add this repo to your Gr
 
     dependencies {
       // Reactor Core
-      compile "io.projectreactor:reactor-core:3.0.2.BUILD-SNAPSHOT"
+      compile "io.projectreactor:reactor-core:3.0.4.BUILD-SNAPSHOT"
 
-      // Reactor Aeron
-      // compile "io.projectreactor.ipc:reactor-aeron:0.6.0.BUILD-SNAPSHOT"
+      // Reactor Test
+      // compile "io.projectreactor.addons:reactor-test:3.0.4.BUILD-SNAPSHOT"
 
-       // Reactor Netty4
+       // Reactor Netty
        // compile "io.projectreactor.ipc:reactor-netty:0.6.0.BUILD-SNAPSHOT"
 
     }
