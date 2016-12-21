@@ -16,7 +16,7 @@ Reactive foundations for apps and frameworks and reactive extensions inspired AP
 - API space : http://projectreactor.io/docs/core/release/api
 
 # Reactor IPC
-[![Reactor IPC](https://maven-badges.herokuapp.com/maven-central/io.projectreactor/reactor-core/badge.svg?style=plastic)](http://mvnrepository.com/artifact/io.projectreactor.ipc/reactor-ipc)
+[![Reactor IPC](https://maven-badges.herokuapp.com/maven-central/io.projectreactor.ipc/reactor-ipc/badge.svg?style=plastic)](http://mvnrepository.com/artifact/io.projectreactor.ipc/reactor-ipc)
 
 Memory and InterProcessCommunication abstractions.
 
@@ -25,7 +25,7 @@ Memory and InterProcessCommunication abstractions.
 - API space : http://projectreactor.io/docs/ipc/release/api
 
 # Reactor Netty :
-[![Reactor IPC](https://maven-badges.herokuapp.com/maven-central/io.projectreactor/reactor-core/badge.svg?style=plastic)](http://mvnrepository.com/artifact/io.projectreactor.ipc/reactor-netty)
+[![Reactor IPC](https://maven-badges.herokuapp.com/maven-central/io.projectreactor.ipc/reactor-netty/badge.svg?style=plastic)](http://mvnrepository.com/artifact/io.projectreactor.ipc/reactor-netty)
 
 TCP and HTTP client and server
 
@@ -34,6 +34,8 @@ TCP and HTTP client and server
 - API space : http://projectreactor.io/docs/netty/release/api
 
 # Reactor Addons
+
+[![Reactor Core](https://maven-badges.herokuapp.com/maven-central/io.projectreactor.addons/reactor-test/badge.svg?style=plastic)](http://mvnrepository.com/artifact/io.projectreactor.addons/reactor-test)
 
 - https://github.com/reactor/reactor-addons
 - Documentation source : http://projectreactor.io/ext/docs/reference
